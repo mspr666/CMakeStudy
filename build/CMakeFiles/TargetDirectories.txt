@@ -1,3 +1,0 @@
-D:/mycode/cmakeCode/FirstCmake/build/CMakeFiles/main.dir
-D:/mycode/cmakeCode/FirstCmake/build/CMakeFiles/edit_cache.dir
-D:/mycode/cmakeCode/FirstCmake/build/CMakeFiles/rebuild_cache.dir
