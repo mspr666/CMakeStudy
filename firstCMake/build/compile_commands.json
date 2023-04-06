@@ -1,0 +1,12 @@
+[
+{
+  "directory": "E:/iLearing/Cplusplus/FirstCMake/build",
+  "command": "D:\\Tools\\mingw64\\bin\\g++.exe  @CMakeFiles/main.dir/includes_CXX.rsp -g -o CMakeFiles\\main.dir\\main.cpp.obj -c E:\\iLearing\\Cplusplus\\FirstCMake\\main.cpp",
+  "file": "E:/iLearing/Cplusplus/FirstCMake/main.cpp"
+},
+{
+  "directory": "E:/iLearing/Cplusplus/FirstCMake/build",
+  "command": "D:\\Tools\\mingw64\\bin\\g++.exe  @CMakeFiles/main.dir/includes_CXX.rsp -g -o CMakeFiles\\main.dir\\swap.cpp.obj -c E:\\iLearing\\Cplusplus\\FirstCMake\\swap.cpp",
+  "file": "E:/iLearing/Cplusplus/FirstCMake/swap.cpp"
+}
+]
