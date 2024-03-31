@@ -7,10 +7,11 @@
 
 class ConcreteVendingMachine : public VendingMachine {
 public:
+    virtual ~ConcreteVendingMachine();
     void addProduct(std::shared_ptr<Product> product) override;
     void removeProduct(const std::string& productName) override;
     std::shared_ptr<Product> getProduct(const std::string& productName) override;
-    bool buyProduct(const std::string& productName, double money) override;
+    bool buyProduct(const std::string& productName, double& money) override;
     std::vector<std::string> listProducts() const override;
 
 private:
