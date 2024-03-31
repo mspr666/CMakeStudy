@@ -1,0 +1,12 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\bin",
+    "\\include",
+    "\\src",
+    "\\thirdparty",
+    "\\thirdparty\\external_library"
+  ],
+  "SelectedNode": "\\src\\CmakeLists.txt",
+  "PreviewInSolutionExplorer": false
+}

@@ -1,6 +1,0 @@
-E:/iLearing/CMakeStudy/thirdCMake/build/CMakeFiles/Demo.dir
-E:/iLearing/CMakeStudy/thirdCMake/build/CMakeFiles/edit_cache.dir
-E:/iLearing/CMakeStudy/thirdCMake/build/CMakeFiles/rebuild_cache.dir
-E:/iLearing/CMakeStudy/thirdCMake/build/math/CMakeFiles/MathFunctions.dir
-E:/iLearing/CMakeStudy/thirdCMake/build/math/CMakeFiles/edit_cache.dir
-E:/iLearing/CMakeStudy/thirdCMake/build/math/CMakeFiles/rebuild_cache.dir
