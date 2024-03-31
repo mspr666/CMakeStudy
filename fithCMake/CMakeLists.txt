@@ -6,6 +6,7 @@ enable_testing()
 
 # 设置C++标准
 set(CMAKE_CXX_STANDARD 14)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 # 添加源文件和头文件目录
 include_directories(include)

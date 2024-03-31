@@ -3,6 +3,7 @@
 #include "concrete_vending_machine.h"
 #include "ConcreteProduct.h"
 
+// single test
 TEST(VendingMachineTest, AddProduct) {
     ConcreteVendingMachine vendingMachine;
     auto product = std::make_shared<ConcreteProduct>("Coke", 1.5);

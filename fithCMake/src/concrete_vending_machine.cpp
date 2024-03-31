@@ -1,6 +1,8 @@
 // vending_machine/src/concrete_vending_machine.cpp
 #include "concrete_vending_machine.h"
 
+ConcreteVendingMachine::~ConcreteVendingMachine() {}
+
 void ConcreteVendingMachine::addProduct(std::shared_ptr<Product> product) {
     products[product->getName()] = product;
 }
@@ -17,7 +19,7 @@ std::shared_ptr<Product> ConcreteVendingMachine::getProduct(const std::string& p
     return nullptr;
 }
 
-bool ConcreteVendingMachine::buyProduct(const std::string& productName, double money) {
+bool ConcreteVendingMachine::buyProduct(const std::string& productName, double& money) {
     auto it = products.find(productName);
     if (it != products.end()) {
         double price = it->second->getPrice();

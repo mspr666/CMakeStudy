@@ -13,7 +13,7 @@ public:
     virtual void addProduct(std::shared_ptr<Product> product) = 0;
     virtual void removeProduct(const std::string& productName) = 0;
     virtual std::shared_ptr<Product> getProduct(const std::string& productName) = 0;
-    virtual bool buyProduct(const std::string& productName, double money) = 0;
+    virtual bool buyProduct(const std::string& productName, double& money) = 0;
     virtual std::vector<std::string> listProducts() const = 0;
 };
 
